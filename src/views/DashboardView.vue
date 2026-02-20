@@ -1,7 +1,9 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import LastProductsCard from "@/components/Cards/LastProductsCard.vue";
+</script>
 
 <template>
-  <h1>This is main Dashboard View</h1>
+  <LastProductsCard />
 </template>
 
 <style scoped></style>

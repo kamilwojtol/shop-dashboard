@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import Nav from "./components/shared/Nav/Nav.vue";
+import Header from "./components/Header/Header.vue";
+import Nav from "./components/Nav/Nav.vue";
 </script>
 
 <template>
   <div class="flex">
     <Nav />
-    <main>
+    <main class="px-8 pt-8 bg-midnight w-screen">
+      <Header />
       <RouterView />
     </main>
   </div>

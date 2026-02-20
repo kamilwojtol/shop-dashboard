@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink } from "vue-router";
-import Logo from "../Logo/Logo.vue";
+import Logo from "../shared/Logo/Logo.vue";
 import {
   ChartBarIcon,
   HomeIcon,
@@ -12,7 +12,7 @@ import { ShoppingBagIcon } from "@heroicons/vue/20/solid";
 </script>
 
 <template>
-  <div class="nav flex flex-col bg-midnight h-screen">
+  <div class="nav flex flex-col bg-zodiac-blue h-screen">
     <div class="flex items-center py-4 justify-center my-4">
       <RouterLink to="/dashboard">
         <Logo />
@@ -22,38 +22,38 @@ import { ShoppingBagIcon } from "@heroicons/vue/20/solid";
       <ul class="flex flex-col gap-4">
         <RouterLink to="/dashboard" active-class="font-bold">
           <div class="flex flex-row items-center">
-            <HomeIcon class="w-5 h-5 inline-block mr-4" />
-            <li class="text-lg">Dashboard</li>
+            <HomeIcon class="text-white w-5 h-5 inline-block mr-4" />
+            <li class="text-white text-lg">Dashboard</li>
           </div>
         </RouterLink>
         <RouterLink to="/products" active-class="font-bold">
           <div class="flex flex-row items-center">
-            <ShoppingBagIcon class="w-5 h-5 inline-block mr-4" />
-            <li class="text-lg">Products</li>
+            <ShoppingBagIcon class="text-white w-5 h-5 inline-block mr-4" />
+            <li class="text-white text-lg">Products</li>
           </div>
         </RouterLink>
         <RouterLink to="/orders" active-class="font-bold">
           <div class="flex flex-row items-center">
-            <ShoppingCartIcon class="w-5 h-5 inline-block mr-4" />
-            <li class="text-lg">Orders</li>
+            <ShoppingCartIcon class="text-white w-5 h-5 inline-block mr-4" />
+            <li class="text-white text-lg">Orders</li>
           </div>
         </RouterLink>
         <RouterLink to="/customers" active-class="font-bold">
           <div class="flex flex-row items-center">
-            <UserIcon class="w-5 h-5 inline-block mr-4" />
-            <li class="text-lg">Customers</li>
+            <UserIcon class="text-white w-5 h-5 inline-block mr-4" />
+            <li class="text-white text-lg">Customers</li>
           </div>
         </RouterLink>
         <RouterLink to="/analytics" active-class="font-bold">
           <div class="flex flex-row items-center">
-            <ChartBarIcon class="w-5 h-5 inline-block mr-4" />
-            <li class="text-lg">Analytics</li>
+            <ChartBarIcon class="text-white w-5 h-5 inline-block mr-4" />
+            <li class="text-white text-lg">Analytics</li>
           </div>
         </RouterLink>
         <RouterLink to="/settings" active-class="font-bold">
           <div class="flex flex-row items-center">
-            <WrenchIcon class="w-5 h-5 inline-block mr-4" />
-            <li class="text-lg">Settings</li>
+            <WrenchIcon class="text-white w-5 h-5 inline-block mr-4" />
+            <li class="text-white text-lg">Settings</li>
           </div>
         </RouterLink>
       </ul>
