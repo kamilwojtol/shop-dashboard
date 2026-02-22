@@ -6,7 +6,7 @@ import Nav from "./components/Nav/Nav.vue";
 <template>
   <div class="flex">
     <Nav />
-    <main class="px-8 pt-8 bg-midnight w-screen">
+    <main class="px-8 pt-8 bg-midnight w-screen h-screen overflow-auto">
       <Header />
       <RouterView />
     </main>

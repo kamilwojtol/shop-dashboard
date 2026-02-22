@@ -30,7 +30,7 @@ const products = [
       <h2 class="text-white">Last Products</h2>
     </template>
     <template #content>
-      <Table :products="products" />
+      <Table :table="products" />
     </template>
   </Card>
 </template>
