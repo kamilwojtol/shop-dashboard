@@ -1,27 +1,9 @@
 <script lang="ts" setup>
 import Card from "../shared/Card/Card.vue";
 import Table from "../shared/Table/Table.vue";
+import useProducts from "@/composables/useProducts";
 
-const products = [
-  {
-    code: "P001",
-    name: "Product 1",
-    category: "Electronics",
-    quantity: 10,
-  },
-  {
-    code: "P002",
-    name: "Product 2",
-    category: "Clothing",
-    quantity: 20,
-  },
-  {
-    code: "P003",
-    name: "Product 3",
-    category: "Home & Kitchen",
-    quantity: 5,
-  },
-];
+const { products } = useProducts();
 </script>
 
 <template>

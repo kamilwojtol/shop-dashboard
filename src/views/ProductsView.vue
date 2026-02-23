@@ -1,7 +1,9 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import ProductsTable from "@/components/Tables/ProductsTable.vue";
+</script>
 
 <template>
-  <h1>This is main Products View</h1>
+  <ProductsTable />
 </template>
 
 <style scoped></style>
